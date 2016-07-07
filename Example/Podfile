@@ -1,0 +1,6 @@
+use_frameworks!
+target 'UMSocialCOMCustom_Tests' do
+  pod 'UMSocialCOMCustom', :path => '../'
+  
+  
+end
