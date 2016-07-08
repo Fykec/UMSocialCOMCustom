@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
   s.vendored_libraries = 'UMSocial_Sdk_5.2.1/**/*.a', 'UMSocial_Sdk_Extra_Frameworks/**/*.a', 'UMSocial_Sdk_Extra_Frameworks/**/*.framework'
 
   s.public_header_files = '**/*.h'
-  s.libraries = "UMSocial_Sdk_5.2.1", "UMSocial_Sdk_Comment_5.2.1", "SocialQQ", "SocialWechat", "z", "sqlite3", "stdc++", "iconv", "WeChatSDK", "SocialSinaSSO", "SocialAlipayShare", "APOpenSdk", "WeiboSDK", "LWApiSDK", "SocialInstagram", "SocialLine", "SocialWhatsapp", "SocialTumblr", "SocialLaiWang", "SocialFacebook", "SocialTwitter"
-  s.frameworks = "SystemConfiguration", "MobileCoreServices", "TencentOpenAPI", "FBSDKCoreKit", "FBSDKLoginKit", "FBSDKShareKit", "Fabric", "TwitterCore", "TwitterKit", "Accounts", "Social", "CoreData", "ImageIO", "CoreGraphics", "CoreTelephony"
+  s.libraries = "UMSocial_Sdk_5.2.1", "SocialWechat", "z", "sqlite3", "stdc++", "iconv", "WeChatSDK", "SocialSinaSSO", "WeiboSDK"
+  s.frameworks = "SystemConfiguration", "MobileCoreServices", "Accounts", "Social", "CoreData", "ImageIO", "CoreGraphics", "CoreTelephony"
   # s.dependency 'AFNetworking', '~> 2.3'
 end
