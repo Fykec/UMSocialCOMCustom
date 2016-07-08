@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
     'UMSocial_Sdk_5.2.1/{en,zh-Hans}.lproj']
   }
   
-  s.preserve_paths = 'UMSocial_Sdk_5.2.1/**/*.a', 'UMSocial_Sdk_Extra_Frameworks/**/*.a', 'UMSocial_Sdk_Extra_Frameworks/**/*.framework'
+  s.vendored_libraries = 'UMSocial_Sdk_5.2.1/**/*.a', 'UMSocial_Sdk_Extra_Frameworks/**/*.a', 'UMSocial_Sdk_Extra_Frameworks/**/*.framework'
 
   s.public_header_files = '**/*.h'
   s.libraries = "UMSocial_Sdk_5.2.1", "UMSocial_Sdk_Comment_5.2.1", "SocialQQ", "SocialWechat", "z", "sqlite3", "stdc++", "iconv", "WeChatSDK", "SocialSinaSSO", "SocialAlipayShare", "APOpenSdk", "WeiboSDK", "LWApiSDK", "SocialInstagram", "SocialLine", "SocialWhatsapp", "SocialTumblr", "SocialLaiWang", "SocialFacebook", "SocialTwitter"
