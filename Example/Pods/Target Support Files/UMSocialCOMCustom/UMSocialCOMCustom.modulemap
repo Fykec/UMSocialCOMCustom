@@ -1,0 +1,6 @@
+framework module UMSocialCOMCustom {
+  umbrella header "UMSocialCOMCustom-umbrella.h"
+
+  export *
+  module * { export * }
+}

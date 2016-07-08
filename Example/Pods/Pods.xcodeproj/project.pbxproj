@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32BB46581AB32E7BB58747E67A92D114 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0ADD8B29D3310FF25109458BB6A8F /* ReplaceMe.m */; };
+		46EE9E450E90E96ED80F02F06CBF6B45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		75296A92897C9769459B3F6BF9ECC430 /* Pods-UMSocialCOMCustom_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDBDB591EB022F67A8E5AFCB4CCE593 /* Pods-UMSocialCOMCustom_Tests-dummy.m */; };
+		759086C1BE1EEC5A28240C08EE988300 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C17B9301F7BA56B40321AE8AB49C1BA5 /* UMSocialCOMCustom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35BB104935421F83812812411B7F85F8 /* UMSocialCOMCustom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1B71E50324E54FCF89132D8706E8477 /* UMSocialCOMCustom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F30D7DF0ACF95EEEB4CC4BD4C73CE6F4 /* UMSocialCOMCustom-dummy.m */; };
+		F9307D1692E09A48B4DA53BA29A127F8 /* Pods-UMSocialCOMCustom_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 983A901A9EA1340DB1F873A37FF5694F /* Pods-UMSocialCOMCustom_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		132923EF10427E431115CE187FA56E0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6571055C9083BA2CD8880F017D0DD6B9;
+			remoteInfo = UMSocialCOMCustom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F9181379DA7628346F5966A60023FEF /* UMSocialCOMCustom.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UMSocialCOMCustom.xcconfig; sourceTree = "<group>"; };
+		16EF9342F058AA473B6994CC30476A60 /* Pods_UMSocialCOMCustom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UMSocialCOMCustom_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D90580DD567333F1170D3D586F6861 /* UMSocialCOMCustom-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UMSocialCOMCustom-prefix.pch"; sourceTree = "<group>"; };
+		31B7BC52D70D249819B985B47740C138 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35BB104935421F83812812411B7F85F8 /* UMSocialCOMCustom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UMSocialCOMCustom-umbrella.h"; sourceTree = "<group>"; };
+		4645189E8F44D77D6210332C43FF416C /* Pods-UMSocialCOMCustom_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UMSocialCOMCustom_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4997D229DBD9C10083468641818F55AD /* UMSocialCOMCustom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UMSocialCOMCustom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E713A22038766577F80FE4083919711 /* Pods-UMSocialCOMCustom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UMSocialCOMCustom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4FDBDB591EB022F67A8E5AFCB4CCE593 /* Pods-UMSocialCOMCustom_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UMSocialCOMCustom_Tests-dummy.m"; sourceTree = "<group>"; };
+		502CC7216AF33A194E950C12E1BAE6D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DC958E32E1D4134797E5C6FD0AFF79B /* Pods-UMSocialCOMCustom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UMSocialCOMCustom_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8FDA983B82625572AA1C1340DAC8CB0A /* Pods-UMSocialCOMCustom_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UMSocialCOMCustom_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		983A901A9EA1340DB1F873A37FF5694F /* Pods-UMSocialCOMCustom_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UMSocialCOMCustom_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9FA6E9783C8190BC24AC9DBE492ECFF6 /* UMSocialCOMCustom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UMSocialCOMCustom.modulemap; sourceTree = "<group>"; };
+		A5D9A03617786786DC87C2E4FA24DCD0 /* Pods-UMSocialCOMCustom_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UMSocialCOMCustom_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4F36B1CE60EC7BA3F4AF09310CE240A /* Pods-UMSocialCOMCustom_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UMSocialCOMCustom_Tests-resources.sh"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D6E0ADD8B29D3310FF25109458BB6A8F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		EE81E1580797C0C02DB12BF30B4E0C19 /* Pods-UMSocialCOMCustom_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UMSocialCOMCustom_Tests.modulemap"; sourceTree = "<group>"; };
+		F30D7DF0ACF95EEEB4CC4BD4C73CE6F4 /* UMSocialCOMCustom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UMSocialCOMCustom-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85ABCB65DE6BF20410C2FB043B9543F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				759086C1BE1EEC5A28240C08EE988300 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95FE00EEBCBC34D470D367386D01C743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46EE9E450E90E96ED80F02F06CBF6B45 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32C1FE31C8468DD47BC430E3E5256E5F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D6E0ADD8B29D3310FF25109458BB6A8F /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D944BF639164FB9587FAC3F4DB3EA60D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E915B8F348814AA9B3698FA0FD6B1317 /* Products */,
+				B6EBB0FA6D42019965AA3633C734B959 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B6EBB0FA6D42019965AA3633C734B959 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D98289DFF51F9C60BF425578D9E6066D /* Pods-UMSocialCOMCustom_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D944BF639164FB9587FAC3F4DB3EA60D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6F9B37731EA398CF2E8B4506543C283 /* UMSocialCOMCustom */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D98289DFF51F9C60BF425578D9E6066D /* Pods-UMSocialCOMCustom_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				31B7BC52D70D249819B985B47740C138 /* Info.plist */,
+				EE81E1580797C0C02DB12BF30B4E0C19 /* Pods-UMSocialCOMCustom_Tests.modulemap */,
+				A5D9A03617786786DC87C2E4FA24DCD0 /* Pods-UMSocialCOMCustom_Tests-acknowledgements.markdown */,
+				8FDA983B82625572AA1C1340DAC8CB0A /* Pods-UMSocialCOMCustom_Tests-acknowledgements.plist */,
+				4FDBDB591EB022F67A8E5AFCB4CCE593 /* Pods-UMSocialCOMCustom_Tests-dummy.m */,
+				4645189E8F44D77D6210332C43FF416C /* Pods-UMSocialCOMCustom_Tests-frameworks.sh */,
+				C4F36B1CE60EC7BA3F4AF09310CE240A /* Pods-UMSocialCOMCustom_Tests-resources.sh */,
+				983A901A9EA1340DB1F873A37FF5694F /* Pods-UMSocialCOMCustom_Tests-umbrella.h */,
+				4E713A22038766577F80FE4083919711 /* Pods-UMSocialCOMCustom_Tests.debug.xcconfig */,
+				7DC958E32E1D4134797E5C6FD0AFF79B /* Pods-UMSocialCOMCustom_Tests.release.xcconfig */,
+			);
+			name = "Pods-UMSocialCOMCustom_Tests";
+			path = "Target Support Files/Pods-UMSocialCOMCustom_Tests";
+			sourceTree = "<group>";
+		};
+		E915B8F348814AA9B3698FA0FD6B1317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16EF9342F058AA473B6994CC30476A60 /* Pods_UMSocialCOMCustom_Tests.framework */,
+				4997D229DBD9C10083468641818F55AD /* UMSocialCOMCustom.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4F7AE186CE001814ED9E5DE5B172DBC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				502CC7216AF33A194E950C12E1BAE6D6 /* Info.plist */,
+				9FA6E9783C8190BC24AC9DBE492ECFF6 /* UMSocialCOMCustom.modulemap */,
+				0F9181379DA7628346F5966A60023FEF /* UMSocialCOMCustom.xcconfig */,
+				F30D7DF0ACF95EEEB4CC4BD4C73CE6F4 /* UMSocialCOMCustom-dummy.m */,
+				24D90580DD567333F1170D3D586F6861 /* UMSocialCOMCustom-prefix.pch */,
+				35BB104935421F83812812411B7F85F8 /* UMSocialCOMCustom-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UMSocialCOMCustom";
+			sourceTree = "<group>";
+		};
+		F6F9B37731EA398CF2E8B4506543C283 /* UMSocialCOMCustom */ = {
+			isa = PBXGroup;
+			children = (
+				F4F7AE186CE001814ED9E5DE5B172DBC /* Support Files */,
+				FE0A064CB0EC9998D6B56832095D2626 /* UMSocialCOMCustom */,
+			);
+			name = UMSocialCOMCustom;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE0A064CB0EC9998D6B56832095D2626 /* UMSocialCOMCustom */ = {
+			isa = PBXGroup;
+			children = (
+				32C1FE31C8468DD47BC430E3E5256E5F /* Classes */,
+			);
+			path = UMSocialCOMCustom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		597932413B7E3F6E11494226C835B219 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9307D1692E09A48B4DA53BA29A127F8 /* Pods-UMSocialCOMCustom_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7402E12C038100FC0C792437AF088FAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17B9301F7BA56B40321AE8AB49C1BA5 /* UMSocialCOMCustom-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6571055C9083BA2CD8880F017D0DD6B9 /* UMSocialCOMCustom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5714560E505D199B6ECF74681A0348C3 /* Build configuration list for PBXNativeTarget "UMSocialCOMCustom" */;
+			buildPhases = (
+				6DFA35CAEF564995037E8B317F1FE752 /* Sources */,
+				85ABCB65DE6BF20410C2FB043B9543F8 /* Frameworks */,
+				7402E12C038100FC0C792437AF088FAA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UMSocialCOMCustom;
+			productName = UMSocialCOMCustom;
+			productReference = 4997D229DBD9C10083468641818F55AD /* UMSocialCOMCustom.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E57B46E6BAEEE61A1B2B8DC21DB7751 /* Pods-UMSocialCOMCustom_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD6C12F31FCC550E49A0E29C2DFE038 /* Build configuration list for PBXNativeTarget "Pods-UMSocialCOMCustom_Tests" */;
+			buildPhases = (
+				CADDDE71A2A460CE7A4671AF62A8BDF1 /* Sources */,
+				95FE00EEBCBC34D470D367386D01C743 /* Frameworks */,
+				597932413B7E3F6E11494226C835B219 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5755F22B08DA5D10456C17481DE6DA00 /* PBXTargetDependency */,
+			);
+			name = "Pods-UMSocialCOMCustom_Tests";
+			productName = "Pods-UMSocialCOMCustom_Tests";
+			productReference = 16EF9342F058AA473B6994CC30476A60 /* Pods_UMSocialCOMCustom_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E915B8F348814AA9B3698FA0FD6B1317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E57B46E6BAEEE61A1B2B8DC21DB7751 /* Pods-UMSocialCOMCustom_Tests */,
+				6571055C9083BA2CD8880F017D0DD6B9 /* UMSocialCOMCustom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DFA35CAEF564995037E8B317F1FE752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BB46581AB32E7BB58747E67A92D114 /* ReplaceMe.m in Sources */,
+				F1B71E50324E54FCF89132D8706E8477 /* UMSocialCOMCustom-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADDDE71A2A460CE7A4671AF62A8BDF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75296A92897C9769459B3F6BF9ECC430 /* Pods-UMSocialCOMCustom_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5755F22B08DA5D10456C17481DE6DA00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UMSocialCOMCustom;
+			target = 6571055C9083BA2CD8880F017D0DD6B9 /* UMSocialCOMCustom */;
+			targetProxy = 132923EF10427E431115CE187FA56E0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D6AEB0E5DC2AC0AA7DA985AEEA0C5C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9181379DA7628346F5966A60023FEF /* UMSocialCOMCustom.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UMSocialCOMCustom/UMSocialCOMCustom-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UMSocialCOMCustom/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UMSocialCOMCustom/UMSocialCOMCustom.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = UMSocialCOMCustom;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F860CD84986A77D694E2D05F854A99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F9181379DA7628346F5966A60023FEF /* UMSocialCOMCustom.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UMSocialCOMCustom/UMSocialCOMCustom-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UMSocialCOMCustom/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UMSocialCOMCustom/UMSocialCOMCustom.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = UMSocialCOMCustom;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		84C517B48332CCE8E34B8998FD42FFC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E713A22038766577F80FE4083919711 /* Pods-UMSocialCOMCustom_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UMSocialCOMCustom_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UMSocialCOMCustom_Tests/Pods-UMSocialCOMCustom_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UMSocialCOMCustom_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F4D861D2630114ECF891A1A3A849130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DC958E32E1D4134797E5C6FD0AFF79B /* Pods-UMSocialCOMCustom_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-UMSocialCOMCustom_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UMSocialCOMCustom_Tests/Pods-UMSocialCOMCustom_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_UMSocialCOMCustom_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5714560E505D199B6ECF74681A0348C3 /* Build configuration list for PBXNativeTarget "UMSocialCOMCustom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D6AEB0E5DC2AC0AA7DA985AEEA0C5C8 /* Debug */,
+				7F860CD84986A77D694E2D05F854A99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD6C12F31FCC550E49A0E29C2DFE038 /* Build configuration list for PBXNativeTarget "Pods-UMSocialCOMCustom_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C517B48332CCE8E34B8998FD42FFC2 /* Debug */,
+				8F4D861D2630114ECF891A1A3A849130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

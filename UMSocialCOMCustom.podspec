@@ -21,22 +21,29 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/UMSocialCOMCustom'
+  s.homepage         = 'https://github.com/Fykec/UMSocialCOMCustom'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jiaji' => 'yinjiaji110@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/UMSocialCOMCustom.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Fykec/UMSocialCOMCustom.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
-  s.source_files = 'UMSocialCOMCustom/Classes/**/*'
+  s.source_files = ['UMSocial_Sdk_5.2.1/Header/*.h', 'UMSocial_Sdk_Extra_Frameworks/**/*.h']
   
-  # s.resource_bundles = {
-  #   'UMSocialCOMCustom' => ['UMSocialCOMCustom/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'UMSocialCOMCustom' => ['UMSocial_Sdk_5.2.1/UMSocialSDKResourcesNew.bundle', 
+    'UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle',
+    'UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle',
+    'UMSocial_Sdk_5.2.1/SocialSDKXib/*.xib',
+    'UMSocial_Sdk_5.2.1/{en,zh-Hans}.lproj']
+  }
+  
+  s.preserve_paths = 'UMSocial_Sdk_5.2.1/**/*.a', 'UMSocial_Sdk_Extra_Frameworks/**/*.a', 'UMSocial_Sdk_Extra_Frameworks/**/*.framework'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = '**/*.h'
+  s.libraries = "UMSocial_Sdk_5.2.1", "UMSocial_Sdk_Comment_5.2.1", "SocialQQ", "SocialWechat", "z", "sqlite3", "stdc++", "iconv", "WeChatSDK", "SocialSinaSSO", "SocialAlipayShare", "APOpenSdk", "WeiboSDK", "LWApiSDK", "SocialInstagram", "SocialLine", "SocialWhatsapp", "SocialTumblr", "SocialLaiWang", "SocialFacebook", "SocialTwitter"
+  s.frameworks = "SystemConfiguration", "MobileCoreServices", "TencentOpenAPI", "FBSDKCoreKit", "FBSDKLoginKit", "FBSDKShareKit", "Fabric", "TwitterCore", "TwitterKit", "Accounts", "Social", "CoreData", "ImageIO", "CoreGraphics", "CoreTelephony"
   # s.dependency 'AFNetworking', '~> 2.3'
 end

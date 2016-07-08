@@ -1,0 +1,16 @@
+PODS:
+  - UMSocialCOMCustom (0.1.0)
+
+DEPENDENCIES:
+  - UMSocialCOMCustom (from `../`)
+
+EXTERNAL SOURCES:
+  UMSocialCOMCustom:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UMSocialCOMCustom: 3080246d5a4073210cabfb41f9ec25c6dc02e2a2
+
+PODFILE CHECKSUM: f7557c70787b155241f91443a01f7e6668f66e3f
+
+COCOAPODS: 1.0.1

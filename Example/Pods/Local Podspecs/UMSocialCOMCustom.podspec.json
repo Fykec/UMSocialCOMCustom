@@ -1,0 +1,22 @@
+{
+  "name": "UMSocialCOMCustom",
+  "version": "0.1.0",
+  "summary": "A short description of UMSocialCOMCustom.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/UMSocialCOMCustom",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jiaji": "yinjiaji110@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/UMSocialCOMCustom.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UMSocialCOMCustom/Classes/**/*"
+}
